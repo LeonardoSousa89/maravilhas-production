@@ -30,15 +30,15 @@ export default class Header extends Component{
                     <Nav.Item>
                         <Nav.Link className="home" href="/">Home</Nav.Link>
                     </Nav.Item>
-                    {/** 
                     <Nav.Item>
                         <Nav.Link className="about" href="/about">Sobre</Nav.Link>
                     </Nav.Item>
+                    {/** 
+                    *
+                    * 
                     <Nav.Item>
                         <Nav.Link className="form" href="/form">Formulário</Nav.Link>
                     </Nav.Item> 
-                     *
-                     * 
                      * 
                      *  
                     */}
@@ -57,9 +57,9 @@ export default class Header extends Component{
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav>
                             <Nav.Link className="home-little" href="/">Home</Nav.Link>
+                            <Nav.Link className="about-little" href="/about">Sobre</Nav.Link>
                             {/**
                              * 
-                             <Nav.Link className="about-little" href="/about">Sobre</Nav.Link>
                             <Nav.Link className="form-little" href="/form">Formulário</Nav.Link>
                              */}
                             <Nav.Link className="loja-little" href="https://www.timol.com.br/direto_fabrica.aspx?ref=3080" target="blank">Loja</Nav.Link>
