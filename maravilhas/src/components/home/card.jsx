@@ -6,7 +6,8 @@ export default function Cards(props) {
         <>
                 <img
                 className="ComponentCardpropsImg"
-                src={props.url} /> 
+                src={props.url} 
+                alt=""/> 
                 <h4 className="cardDescriptionComponent">{props.description}</h4> 
                 <a className="anchor" href="https://www.timol.com.br/home.aspx" target="blank">
                         <div className="componentCardConteiner">{props.promotion}</div>
