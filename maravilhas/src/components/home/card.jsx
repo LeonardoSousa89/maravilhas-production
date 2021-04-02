@@ -4,7 +4,6 @@ import './home.css'
 export default function Cards(props) {
     return(
         <>
-          
                 <img
                 className="ComponentCardpropsImg"
                 src={props.url} /> 

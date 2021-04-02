@@ -1,29 +1,14 @@
 import React, {Component} from 'react'
 import './home.css'
-
-/**desinstalar depois */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAdjust,faIcons } from '@fortawesome/free-solid-svg-icons'
-import {  } from '@fortawesome/fontawesome-svg-core'
-/**desinstalar depois */
-
 import {FaInstagram, FaFacebookSquare, FaLinkedin, FaPhone} from 'react-icons/fa'
 import {GrMail} from 'react-icons/gr'
-
-
 import Slider from './slide'
-
 import Squeeze from '../../assets/squeeze_timol.jpeg'
 import Sylocimol from '../../assets/sylocimol_mini.png'
 import Toph from '../../assets/toph.jpg'
 import Combo from '../../assets/combo.jpg'
-
 import Cards from './card'
-
 import Footer from '../footer/footer'
-
-
-
 
 export default class Header extends Component{
   

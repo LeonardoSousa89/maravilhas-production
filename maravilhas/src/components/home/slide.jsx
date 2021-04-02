@@ -1,8 +1,6 @@
 import React,{ useState } from 'react'
 import {Carousel} from 'react-bootstrap'
-
 import './home.css'
-
 import Sylocimol from '../../assets/sylocimol_mini.png'
 import Toph from '../../assets/toph.jpg'
 import Vida from '../../assets/vida.jpg'
@@ -16,7 +14,6 @@ function Slider() {
   
     return (
     
-
       <Carousel activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item interval={3000}>
           <img 
@@ -38,10 +35,8 @@ function Slider() {
             src={Sylocimol}
             alt="Third slide"
           />
-  
         </Carousel.Item>
       </Carousel>
-
 
     );
   }
