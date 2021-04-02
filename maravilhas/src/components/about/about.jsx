@@ -132,8 +132,8 @@ export default class About extends Component{
                                 </div>
 
                                 <div className="area2Little">
-                                        <h5 className="quemLittle">&ldquo;Quem?&rdquo;</h5> 
-                                        <h5 className="somosLittle">&ldquo;Somos&rdquo;</h5>
+                                        <h5 className="quemLittle">&ldquo;Quem&rdquo;</h5> 
+                                        <h5 className="somosLittle">&ldquo;Somos?&rdquo;</h5>
                                 </div>
                             </div>
                     </div>
