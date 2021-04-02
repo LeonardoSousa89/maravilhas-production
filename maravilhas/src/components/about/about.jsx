@@ -45,7 +45,8 @@ export default class About extends Component{
 
                     <div className="apresentacao">
                                 <img src={Avatar} 
-                                className="avatar" />
+                                className="avatar"
+                                alt="" />
 
                                 <div className="euComponent">
                                     <h3> Olá eu sou <em>Javan Santos</em>. Vendedor dos produtos 
@@ -144,7 +145,8 @@ export default class About extends Component{
 
                      <div className="apresentacaoLittle">
                             <img src={Avatar} 
-                            className="avatarLittle" />
+                            className="avatarLittle"
+                            alt="" />
 
                     <div className="euComponentLittle">
                             <h3> Olá eu sou <em>Javan Santos</em>. Vendedor dos produtos 
